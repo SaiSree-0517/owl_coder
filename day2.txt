@@ -1,0 +1,23 @@
+a=[int(i) for i in input().split()]------>to read list of values using list comprehension
+march 20/03/2022
+linear search----brute force method
+
+binary search
+
+12  19  42  56  78  98------>for sorted list 
+ 0     1    2    3    4     5
+>>1 or by 2 both are same
+(right shift)
+target=56
+m=(h+l)>>1
+case1:
+target>m
+l=m+1
+case2:
+target<m
+h=m-1
+case3:
+target==m
+return m
+l>h
+not found

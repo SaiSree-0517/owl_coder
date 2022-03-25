@@ -1,0 +1,28 @@
+LCM & GCD
+-----------------------
+i, check the given all nos divisible by 2 x%2==0 and y%2==0
+ii,divisibility check with different numbers
+-----------------------
+euclids algorithm
+-----------------------
+GCD(x,y)=GCD(x-y,y)=GCD(x,y-x)
+if any of the variable becomes 0 then the left over number is the gcd
+gcd(12,24)		gdc(12,24)
+       |		       |
+gcd(12,12)		gcd(12,24%12)
+       |
+gcd(12,0)
+check x >y or y>x:
+
+relation btw gcd and lcm:
+lcm(x,y)=x*y
+               ------
+              gcd(x,y)
+in python to find gcd we use math.gcd(v1,v2)
+
+
+problem:
+there is a person starts his journey at (1,1) while he is moving he follows few conditions
+i,if he is in (x,y) he can go to (x+y,y) or (x,y+x)
+we are given few coordinates we need to find that he can reach to those coordinates or not.
+the gcd 
